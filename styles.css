@@ -4,15 +4,14 @@
     display:flex;
     flex-direction: rows;
     justify-content: space-between;
+    
 }
-.right{
-    justify-content: space-between;
-      
-}
+
 .darkstyle{
     background: #1f2937;;
     color: #f9faf8;
     font-family: "Roboto", sans-serif;
+    padding:20px;
     
 }
 
@@ -24,9 +23,20 @@
     font-size: 24px;
 }
 
+img{
+    height:auto;
+    width:50%;
+       
+}
+
 
 .secondary{
     color: #E5E7EB;
     font-size: 18px;
     padding:5px;
+}
+
+.action{
+    background-color: #3882F6;
+    text-align: center;
 }
