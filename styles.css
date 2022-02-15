@@ -1,18 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.flexcontainer{
+.flextopcontainer{
     display:flex;
     flex-direction: rows;
     justify-content: space-between;
+    align-items: center;
+    min-width: 50%;
+    min-height: 50%;
+    margin-left:3%;
+    margin-right: 3%;
+
+}
+
+.flexmaincontainer{
+    display:flex;
+    flex-direction: rows;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+
+
     
+}
+
+*{
+    font-family: Roboto, sans-serif;
 }
 
 .darkstyle{
     background: #1f2937;;
     color: #f9faf8;
-    font-family: "Roboto", sans-serif;
     padding:20px;
     
+}
+
+.informationheader{
+    color:#1F2937;
+    font-size: 36px;
 }
 
 .hero{
@@ -25,18 +49,29 @@
 
 img{
     height:auto;
-    width:50%;
+    width:100%;
+
        
 }
 
 
 .secondary{
-    color: #E5E7EB;
+    color: #838383;
     font-size: 18px;
-    padding:5px;
+    padding:7px;
+    
 }
 
 .action{
     background-color: #3882F6;
     text-align: center;
+    padding:7px;
+    
+}
+.flexvcontainer{
+    flex-direction:column;
+    width:40%;
+    padding:20px;
+    min-height:50%;
+    
 }
