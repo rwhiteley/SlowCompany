@@ -37,6 +37,7 @@
 .informationheader{
     color:#1F2937;
     font-size: 36px;
+    font-weight: 800;
 }
 
 .quotetitle{
@@ -44,6 +45,7 @@
     font-size: 36px;
     text-align: right;
     padding: 5%;
+    font-weight: 800;
 }
 
 
